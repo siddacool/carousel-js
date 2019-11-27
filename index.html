@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div id="app">
+      <div class="carousel">
+        <div class="display">
+          <div class="picture active" data-index="1">
+            <img src="https://placeimg.com/300/200/animal" alt="" />
+          </div>
+          <div class="picture" data-index="2">
+            <img src="https://placeimg.com/300/200/tech" alt="" />
+          </div>
+          <div class="picture" data-index="3">
+            <img src="https://placeimg.com/300/200/people" alt="" />
+          </div>
+        </div>
+
+        <div class="control">
+          <div class="navigation">
+            <div class="arrow arrow--left" id="arrow-left">
+              <svg
+                class="a"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M16.67 0l2.83 2.829-9.339 9.175 9.339 9.167-2.83 2.829-12.17-11.996z"
+                />
+              </svg>
+            </div>
+            <div class="arrow arrow--right" id="arrow-right">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+              >
+                <path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z" />
+              </svg>
+            </div>
+          </div>
+
+          <div class="dots-holder">
+            <span class="dot active" id="dot-1"></span>
+            <span class="dot" id="dot-2"></span>
+            <span class="dot" id="dot-3"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
